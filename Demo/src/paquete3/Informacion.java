@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package paquete3;
-
+import paquete5.Dato;
 /**
  *
  * @author reroes
@@ -12,6 +12,7 @@ package paquete3;
 public class Informacion {
     
     public static int obtenerHabitantes(){
+        
         return Dato.obtenerNumeroHombres() + Dato.obtenerNumeroMujeres();
     }
 }
